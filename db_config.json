@@ -1,0 +1,12 @@
+{
+  "DEFAULT": {
+    "user": "dbcheck",
+    "password": "fordbas",
+    "dsn": "(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=3333))(CONNECT_DATA=(SERVICE_NAME=BSSPLABDB)))"
+  },
+  "PLAB_AMDD": {
+    "user": "dbcheck",
+    "password": "fordbas",
+    "dsn": "(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=3333))(CONNECT_DATA=(SERVICE_NAME=CMMAMDD1DB)))"
+  }
+}
