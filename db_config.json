@@ -1,12 +1,22 @@
 {
-  "DEFAULT": {
-    "user": "dbcheck",
-    "password": "fordbas",
-    "dsn": "(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=3333))(CONNECT_DATA=(SERVICE_NAME=BSSPLABDB)))"
-  },
-  "PLAB_AMDD": {
-    "user": "dbcheck",
-    "password": "fordbas",
-    "dsn": "(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=3333))(CONNECT_DATA=(SERVICE_NAME=CMMAMDD1DB)))"
-  }
+    "DEFAULT": {
+        "user": "dbcheck",
+        "password": "fordbas",
+        "dsn": "(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=3333))(CONNECT_DATA=(SERVICE_NAME=BSSPLABDB)))"
+    },
+    "PLAB_AMDD": {
+        "user": "dbcheck",
+        "password": "fordbas",
+        "dsn": "(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=3333))(CONNECT_DATA=(SERVICE_NAME=CMMAMDD1DB)))"
+    },
+    "PLAB_USG1": {
+        "user": "dbcheck",
+        "password": "fordbas",
+        "dsn": "(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=3333))(CONNECT_DATA=(SID=CMMUSG1PL1B)))"
+    },
+    "CM": {
+        "user": "dbcheck",
+        "password": "fordbas",
+        "dsn": "(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=3333))(CONNECT_DATA=(SERVICE_NAME=CMMCMPL1DB)))"
+    }
 }
